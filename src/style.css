@@ -1,0 +1,428 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 72px;
+  align-items: center;
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.header__logo {
+  display: block;
+  margin-right: auto;
+  margin-left: 5px;
+}
+
+.header__logo:hover {
+  cursor: pointer;
+}
+
+.header__ather-blocks {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input.header__input {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  height: 37px;
+  border: 1px solid #E0E0E0;
+  outline: 0;
+}
+
+input.first {
+  width: 65px;
+  outline: 0;
+}
+
+.header__light-text {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  color: #626262;
+  margin: 0 9px;
+}
+
+input.second {
+  background-image: url(../images/geoposition_icon.jpg);
+  background-repeat: no-repeat;
+  background-position: 12px;
+  text-align: left;
+  padding-left: 37px;
+  margin-right: 87px;
+  outline: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header__button {
+  height: 40px;
+  width: 80px;
+  background-color: #ffffff;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.signin-button {
+  margin-right: 16px;
+}
+
+.signin-button:active {
+  background: #59BD5A;
+}
+
+.register-button:active {
+  background: #59BD5A;
+}
+
+.register-button {
+  background-color: #262626;
+  margin-right: 25px;
+  color: #ffffff;
+}
+
+.header__cart {
+  margin-right: 10px;
+}
+
+.header__cart:hover {
+  cursor: pointer;
+}
+
+.main {
+  padding: 0 80px;
+}
+
+.main__place-restaurant {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main__search-block {
+  display: flex;
+  align-items: flex-end;
+}
+
+.main__search-image {
+  margin: 10px 10px 5px;
+}
+
+.card__search {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  height: 37px;
+  width: 962px;
+  outline: 0;
+  margin-top: 32px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #1d1d1d;
+  opacity: 0.5;
+  outline: none !important;
+}
+
+hr {
+  background-color: #555;
+  border: 0px none;
+  height: 1px;
+  opacity: 0.3;
+}
+
+.card {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card__restaurant {
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 16px 0 8px;
+}
+
+.card__food-type {
+  font-weight: 600;
+  font-size: 14px;
+  opacity: 0.5;
+  margin: 8px 0;
+}
+
+.card__price {
+  font-weight: 600;
+  opacity: 0.7;
+  font-size: 13px;
+  margin: 8px 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 308px 308px 308px;
+  grid-column-gap: 16px;
+  grid-row-gap: 36px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.footer {
+  height: 500px;
+  background: #262626;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.footer__logo {
+  height: 22px;
+  width: 194px;
+}
+
+.footer__logo:hover {
+  cursor: pointer;
+}
+
+.footer__boxes {
+  display: flex;
+  flex-direction: column;
+  padding-top: 45px;
+}
+
+.footer__box-top {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  height: 220px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.footer__box-top-social--middleblock---link {
+  width: 318px;
+  height: 40px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer__box-top-social--middleblock---link:hover {
+  cursor: pointer;
+}
+
+.footer__box-middle {
+  border-bottom: 1px solid #ccc;
+  height: 120px;
+}
+
+.footer__box-middle--AppStore {
+  cursor: pointer;
+}
+
+.footer__box-middle--GoodlePlay {
+  cursor: pointer;
+}
+
+.footer__box-top-social {
+  width: 318px;
+}
+
+.footer__box-top-social--language {
+  background-color: #3B3B3B;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  height: 40px;
+  width: 224px;
+  color: white;
+  background-image: url(../images/footer/footer_globus.jpg);
+  background-repeat: no-repeat;
+  background-position: 14px;
+  cursor: pointer;
+}
+
+.footer__box-top-social--hash {
+  color: #fff;
+  margin-top: 33px;
+  cursor: pointer;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  width: 318px;
+}
+
+.footer__box-top-social--hash---green-elem {
+  color: #49A144;
+}
+
+.footer__box-top-social--icons {
+  display: flex;
+  margin-top: 20px;
+  width: 318px;
+}
+
+.footer__box-top-social--icons---facebook {
+  margin-right: 15px;
+}
+
+.footer__box-top-social--icons---facebook:hover {
+  cursor: pointer;
+}
+
+.footer__box-top-social--icons---tweeter {
+  margin-right: 15px;
+}
+
+.footer__box-top-social--icons---tweeter:hover {
+  cursor: pointer;
+}
+
+.footer__box-top-social--icons---instagram:hover {
+  cursor: pointer;
+}
+
+.footer__box-top-social--middleblock {
+  display: flex;
+  flex-direction: column;
+  width: 318px;
+}
+
+.footer__box-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 954px;
+  margin: 0 auto;
+}
+
+.footer__box-middle--AppStore {
+  margin-right: 40px;
+}
+
+.footer__box-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
+
+.footer__box-bottom--link {
+  width: 318px;
+}
+
+.footer__box-bottom--link a {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer__up-buttom {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  bottom: 24px;
+  right: 16px;
+  z-index: 99;
+  outline: none;
+  background-color: #59bd5a;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.footer__up-buttom:hover {
+  background-color: #262626;
+  border: 1px solid #59bd5a;
+  cursor: pointer;
+}
+
+.footer__up-buttom img {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 25px;
+}
+
+@media (max-width: 964px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 376px 376px;
+    grid-column-gap: 16px;
+    grid-row-gap: 36px;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .card__image img {
+    width: 376px;
+    height: 256px;
+  }
+
+  .header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .main {
+    padding: 0 10px;
+  }
+
+  input.second {
+    margin-right: 57px;
+  }
+}
+@media (min-width: 1352px) and (max-width: 2000px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 308px 308px 308px 308px;
+    grid-column-gap: 16px;
+    grid-row-gap: 36px;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

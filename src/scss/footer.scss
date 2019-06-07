@@ -1,0 +1,192 @@
+.footer {
+  height: 500px;
+  background: #262626;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 55px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.footer__logo {
+  height: 22px;
+  width: 194px;
+}
+
+.footer__logo:hover {
+  cursor: pointer;
+}
+
+.footer__boxes {
+  display: flex;
+  flex-direction: column;
+  padding-top: 45px;
+}
+
+.footer__box-top {
+  display: flex;
+  justify-content: center;
+
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  height: 220px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.footer__box-top-social--middleblock---link {
+  width: 318px;
+  height: 40px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer__box-top-social--middleblock---link:hover {
+  cursor: pointer;
+}
+
+.footer__box-middle {
+  border-bottom: 1px solid #ccc;
+  height: 120px;
+}
+
+.footer__box-middle--AppStore {
+  cursor: pointer;
+}
+
+.footer__box-middle--GoodlePlay {
+  cursor: pointer;
+}
+
+.footer__box-top-social {
+  width: 318px;
+}
+
+.footer__box-top-social--language {
+  background-color: #3B3B3B;
+
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  height: 40px;
+  width: 224px;
+  color: white;
+  background-image: url(../images/footer/footer_globus.jpg);
+  background-repeat: no-repeat;
+  background-position: 14px;
+  cursor: pointer;
+}
+
+.footer__box-top-social--hash {
+  color: #fff;
+  margin-top: 33px;
+  cursor: pointer;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  width: 318px;
+}
+
+.footer__box-top-social--hash---green-elem {
+  color: #49A144;
+}
+
+.footer__box-top-social--icons {
+  display: flex;
+  margin-top: 20px;
+  width: 318px;
+}
+
+.footer__box-top-social--icons---facebook {
+  margin-right: 15px;
+}
+
+.footer__box-top-social--icons---facebook:hover {
+  cursor: pointer;
+}
+
+.footer__box-top-social--icons---tweeter {
+  margin-right: 15px;
+}
+
+.footer__box-top-social--icons---tweeter:hover {
+  cursor: pointer;
+}
+
+.footer__box-top-social--icons---instagram:hover {
+  cursor: pointer;
+}
+
+.footer__box-top-social--middleblock {
+  display: flex;
+  flex-direction: column;
+  width: 318px;
+}
+
+.footer__box-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 954px;
+  margin: 0 auto;
+}
+.footer__box-middle--AppStore {
+  margin-right: 40px;
+}
+
+.footer__box-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
+
+.footer__box-bottom--link {
+  width: 318px
+}
+
+.footer__box-bottom--link a {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer__up-buttom {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  bottom: 24px;
+  right: 16px;
+  z-index: 99;
+  outline: none;
+  background-color: #59bd5a;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.footer__up-buttom:hover {
+  background-color: #262626;
+  border: 1px solid #59bd5a;
+  cursor: pointer;
+}
+
+.footer__up-buttom img {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 25px;
+}
+
+

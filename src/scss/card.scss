@@ -1,0 +1,92 @@
+.main {
+   padding: 0 80px;
+}
+
+.main__place-restaurant {
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main__search-block {
+  display: flex;
+  align-items: flex-end;
+}
+
+.main__search-image {
+  margin: 10px 10px 5px;
+}
+
+.card__search {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  height: 37px;
+  width: 962px;
+  outline: 0;
+  margin-top: 32px;
+
+  border: none;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #1d1d1d;
+
+  opacity: 0.5;
+  outline: none !important;
+}
+
+hr {
+ background-color:#555;
+ border:0px none;
+ height:1px;
+ opacity: 0.3;
+}
+
+.card {
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card__restaurant {
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 16px 0 8px;
+}
+
+.card__food-type {
+  font-weight: 600;
+  font-size: 14px;
+  opacity: 0.5;
+  margin: 8px 0;
+}
+
+.card__price {
+  font-weight: 600;
+  opacity: 0.7;
+  font-size: 13px;
+  margin: 8px 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 308px 308px 308px;
+  grid-column-gap: 16px;
+  grid-row-gap: 36px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
