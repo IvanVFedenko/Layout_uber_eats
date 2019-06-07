@@ -1,0 +1,103 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 72px;
+  align-items: center;
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.header__logo {
+  display: block;
+  margin-right: auto;
+  margin-left: 5px;
+}
+
+.header__logo:hover {
+  cursor: pointer;
+}
+
+.header__ather-blocks {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input.header__input {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  height: 37px;
+  border: 1px solid #E0E0E0;
+  outline: 0;
+}
+
+input.first {
+  width: 65px;
+  outline: 0;
+}
+
+.header__light-text {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+  color: #626262;
+  margin: 0 9px;
+}
+
+input.second {
+  background-image: url(../images/geoposition_icon.jpg);
+  background-repeat: no-repeat;
+  background-position: 12px;
+  text-align: left;
+  padding-left: 37px;
+  margin-right: 87px;
+  outline: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header__button {
+  height: 40px;
+  width: 80px;
+  background-color: #ffffff;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.signin-button {
+  margin-right: 16px;
+}
+
+.signin-button:active {
+  background: #59BD5A;
+}
+
+.register-button:active {
+  background: #59BD5A;
+}
+
+.register-button {
+  background-color: #262626;
+  margin-right: 25px;
+  color: #ffffff;
+}
+
+.header__cart {
+  margin-right: 10px;
+}
+
+.header__cart:hover {
+  cursor: pointer;
+}
