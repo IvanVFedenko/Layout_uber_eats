@@ -104,7 +104,10 @@ input.second {
 }
 
 .main {
+  position: relative;
   padding: 0 80px;
+  z-index: 500;
+  background-color: white;
 }
 
 .main__place-restaurant {
@@ -358,7 +361,7 @@ hr {
   position: fixed;
   bottom: 24px;
   right: 16px;
-  z-index: 99;
+  z-index: 1;
   outline: none;
   background-color: #59bd5a;
   border: 1px solid transparent;
