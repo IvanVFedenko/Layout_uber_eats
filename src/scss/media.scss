@@ -1,0 +1,46 @@
+@media (max-width: 964px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 376px 376px;
+    grid-column-gap: 16px;
+    grid-row-gap: 36px;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .card__image img{
+    width: 376px;
+    height: 256px;
+  }
+
+  .header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .main {
+    padding: 0 10px;
+ }
+
+ input.second {
+    margin-right: 57px;
+  }
+}
+
+@media (min-width: 1352px) and (max-width: 2000px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 308px 308px 308px 308px;
+    grid-column-gap: 16px;
+    grid-row-gap: 36px;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+}
+
+
